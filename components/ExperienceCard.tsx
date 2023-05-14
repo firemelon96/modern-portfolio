@@ -6,18 +6,18 @@ type Props = {};
 
 function ExperienceCard({}: Props) {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10">
+    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
       <motion.div
         initial={{ x: -100, opacity: 0 }}
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className=""
+        className="pl-40"
       >
         <Image
           src="/images/realtor.png"
           alt="picture"
-          className="w-32 h-32 rounded-full md:rounded-full xl:w-[200px] xl:h-[200px] "
+          className="w-32 h-32 rounded-full md:rounded-full xl:w-[200px] xl:h-[200px]"
           width={235}
           height={197}
         />
@@ -54,10 +54,10 @@ function ExperienceCard({}: Props) {
         </p>
 
         <ul className="list-disc space-y-4 ml-5 text-lg">
-          <li>Lorem ipsum</li>
-          <li>Lorem ipsum</li>
-          <li>Lorem ipsum</li>
-          <li>Lorem ipsum</li>
+          <li>Lorem ipsum lor</li>
+          <li>Lorem ipsum lor</li>
+          <li>Lorem ipsum lor</li>
+          <li>Lorem ipsum lor</li>
         </ul>
       </div>
     </article>
