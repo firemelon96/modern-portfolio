@@ -23,9 +23,21 @@ export default function Header({}: Props) {
         }}
         className="flex flex-row items-center"
       >
-        <SocialIcon url="https://www.youtube.com" />
-        <SocialIcon url="https://www.facebook.com" />
-        <SocialIcon url="https://www.instagram.com" />
+        <SocialIcon
+          url="https://www.youtube.com"
+          fgColor="gray"
+          bgColor="transparent"
+        />
+        <SocialIcon
+          url="https://www.facebook.com"
+          fgColor="gray"
+          bgColor="transparent"
+        />
+        <SocialIcon
+          url="https://www.instagram.com"
+          fgColor="gray"
+          bgColor="transparent"
+        />
       </motion.div>
 
       <motion.div
